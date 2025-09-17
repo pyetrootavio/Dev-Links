@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/ChatGPT\ Image\ 5\ de\ set.\ de\ 2025\,\ 23_31_34.png);
+  --bg-url: url(./assets/guitar.png);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -41,7 +41,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0px 24px;
 }
